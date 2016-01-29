@@ -45,15 +45,15 @@ $(document).ready(function() {
 
   });
   $("#addAnotherPizza").click(function(){
-    $("#pizzaForms").append("<div class='pizzaCreator'><label for='pizzaSize'>Pizza Size: </label>" + "<select id='size'>" +     "<option>Select Size</option>" +
+    $("#pizzaForms").append("<div class='pizzaCreator'><label for='pizzaSize'>Pizza Size: </label>" + " " + "<select id='size'>" +     "<option>Select Size</option>" +
     "<option value='family-size'>Family Size</option>" +
     "<option value='large'>Large</option>" +
     "<option value='medium'>Medium</option>" +
     "<option value='small'>Small</option>" +
-    "</select>" +
-    "<label for='topping'>Toppings</label>" +
-    "<input type='text' id='topping' placeholder='Cheese, Pepperoni,...'>" +
-    "<label for='numberOfPizza'>Number of Pizzas:</label>" +
+    "</select>" + " " +
+    "<label for='topping'>Toppings</label>" + " " +
+    "<input type='text' id='topping' placeholder='Cheese, Pepperoni,...'>" + " " +
+    "<label for='numberOfPizza'>Number of Pizzas:</label>" + " " +
     "<input type='text' id='numberOfPizza'> </div>");
   });
 
