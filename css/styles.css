@@ -1,0 +1,24 @@
+body {
+  background: url("C:/Users/Ryan/Desktop/pizza-page/css/img/pizzabackground.jpg") center no-repeat black;
+  background-size: cover;
+}
+
+#pizzaCostDisplay {
+  display: none;
+}
+
+.container {
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10%;
+}
+
+.jumbotron h1 {
+  text-align: center;
+}
+
+.centerButton {
+  width: 300px;
+  margin-top: 2%;
+  text-align: center;
+}
