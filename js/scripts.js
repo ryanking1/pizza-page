@@ -34,11 +34,10 @@ $(document).ready(function() {
     var number = $("input#numberOfPizza").val();
     var pizza1 = new Pizza(size, number, pizzaTopping);
     $("#pizzaCostDisplay").show();
-    $("#totalCost").text(number + " " + size + " " + "pizza(s) with " + pizzaTopping + " " + "will cost $" + pizza1.totalCost());
     costForAll += pizza1.totalCost();
   });
 
-    $("#costForAllPizza").text("total cost for all pizza's will be $" + costForAll);
+    $("#costForAllPizza").text("total cost for all pizzas will be $" + costForAll);
     $("select#size").val("Select Size");
     $("input#topping").val("");
     $("input#numberOfPizza").val("");
